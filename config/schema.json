@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "server": {
+      "type": "object",
+      "properties": {
+        "port": {
+          "type": "integer"
+        },
+        "test": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "port",
+        "test"
+      ]
+    },
+    "additional": {
+      "properties": {
+        "property": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "property"
+      ]
+    }
+  },
+  "required": [
+    "server",
+    "additional"
+  ]
+}

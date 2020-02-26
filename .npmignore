@@ -1,0 +1,11 @@
+node_modules
+config
+test
+coverage
+*.log
+**/*test.js
+jest.config.js
+.eslintignore
+.gitignore
+.eslintrc.json
+.github

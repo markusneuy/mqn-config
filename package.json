@@ -1,0 +1,55 @@
+{
+  "name": "mqn-config",
+  "version": "0.1.0",
+  "description": "Configuration for development and production",
+  "author": "Markus Neuy <info@maqune.de>",
+  "license": "0BSD",
+  "scripts": {
+    "test": "jest --coverage ./lib",
+    "test:watch": "jest --watch ./lib",
+    "test:integration": "jest ./test",
+    "lint": "eslint .",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "ajv": "^6.11.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^22.21.0",
+    "jest": "^24.9.0",
+    "standard-version": "^7.1.0"
+  },
+  "main": "./index.js",
+  "directories": {
+    "lib": "./lib",
+    "example": "./config"
+  },
+  "homepage": "https://github.com/markusneuy",
+  "keywords": [
+    "config",
+    "configuration",
+    "node-config",
+    "config-node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markusneuy/mqn-config"
+  },
+  "bugs": {
+    "url": "https://github.com/markusneuy/mqn-config/issues"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

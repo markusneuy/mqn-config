@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "server": {
+      "type": "object",
+      "properties": {
+        "port": {
+          "type": "integer"
+        },
+        "host": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "port",
+        "host"
+      ]
+    },
+    "loglevel": {
+      "type": "string"
+    }
+  },
+  "require": [
+    "server",
+    "loglevel"
+  ]
+}

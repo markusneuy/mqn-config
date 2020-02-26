@@ -1,0 +1,23 @@
+{
+	"extends": "airbnb-base",
+	"env": {
+		"node": true,
+		"es6": true,
+		"jest/globals": true
+	},
+	"rules": {
+		"no-restricted-syntax": [
+			"off",
+			{
+				"selector": "ForOfStatement"
+			}
+		]
+	},
+	"parserOptions": {
+		"ecmaVersion": 11
+	},
+	"plugins": [
+		"import",
+		"jest"
+	]
+}
