@@ -13,7 +13,7 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "ajv": "^6.11.0"
+    "ajv": "^6.12.3"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
